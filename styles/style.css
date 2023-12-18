@@ -75,7 +75,7 @@ body {
 }
 
 .geral__div__2__div1 {
-    padding: 10% 0% 10% 15%;
+    padding: 0% 0% 10% 15%;
 
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .geral__div__2__div2 {
-    padding: 22% 9% 10% 7%;
+    padding: 15% 9% 10% 7%;
 }
 
 .geral__div__2__div2__titulo {
@@ -137,5 +137,35 @@ body {
 
 .geral__div__3__div2__img {
     width: 100%;
-    padding: 10% 10% 20% 0;
+    padding: 10% 10% 30% 0;
+}
+
+.geral__div__4 {
+    display: flex;
+}
+
+.geral__div__4__div1 {
+    width: 50%;
+    padding: 10% 5% 10% 10%;
+}
+
+.geral__div__4__div1__img {
+    width: 110%;
+    
+}
+
+.geral__div__4__div2 {
+    padding: 18% 3% 10% 0%;
+
+}
+
+.geral__div__4__div2__h1 {
+    font-size: 3rem;
+    padding: 0% 0% 1% 0%;
+}
+
+.geral__div__4__div2__p {
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
