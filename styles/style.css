@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../assets/Background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #00030c;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.geral {
+    font-family: 'Inter', sans-serif;
+    gap: 10rem;
+}
+
+.geral__div__1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    padding: 10% 9%;
+    width: 35%;
+    gap: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.geral__div__1__titulo {
+    padding: 0 0 5% 0;
+}
+
+.geral__div__1__img {
+    width: 65%;
+    padding: 0 0 5% 0;
+}
+
+.geral__div__1__link__1 {
+    border: 1px solid #167BF7;
+    border-radius: 8px;
+    padding: 16px;
+    width: 85%;
+    text-decoration: none;
+    background-color: #167BF7;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.geral__div__1__link__2 {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 16px;
+    width: 85%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.geral__div__1__obs {
+    font-size: 0.6rem;
+    font-weight: 100;
+}
+
+.geral__div__2 {
+    display: flex;
+    justify-content: center;
+    gap: 10%
+}
+
+.geral__div__2__div1 {
+    padding: 10% 0% 10% 15%;
+
+}
+
+.geral__div__2__div1__img {
+    width: 160%;
+
+}
+
+.geral__div__2__div2 {
+    padding: 22% 9% 10% 7%;
+}
+
+.geral__div__2__div2__titulo {
+    font-size: 3rem;
+    padding: 0% 0% 1% 0%;
+
+}
+
+.geral__div__2__div2__paragrafo {
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.geral__div__3 {
+    display: flex;
+}
+
+.geral__div__3__div1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 7% 10% 7%;
+    width: 38%;
+    gap: 1rem;
+}
+
+.geral__div__3__p {
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.geral__div__3__a {
+    border: 1px solid #167BF7;
+    border-radius: 8px;
+    padding: 16px 10px 16px 16px;
+    width: 9rem;
+    text-decoration: none;
+    background-color: #167BF7;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+
+.geral__div__3__div2 {
+    width: 40%;
+}
+
+.geral__div__3__div2__img {
+    width: 100%;
+    padding: 10% 10% 20% 0;
+}
