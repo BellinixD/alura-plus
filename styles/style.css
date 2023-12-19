@@ -169,3 +169,56 @@ body {
     font-size: 1rem;
     line-height: 1.5rem;
 }
+
+.geral__div__5__h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 10% 10% 3% 10%;
+}
+
+.geral__div__5__div {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10% 0;
+}
+
+.geral__div__5__div1__itens {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.rodape__img {
+    width: 7%;
+    padding: 2.5%;
+}
+
+.rodape__links {
+    display: flex;
+    gap: 1rem;
+}
+
+.rodape__links__a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.rodape__text {
+    padding: 0% 5% 5% 5%;
+}
+
+.rodape__p {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
