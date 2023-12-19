@@ -11,7 +11,6 @@ body {
     background-repeat: no-repeat;
     background-color: #00030c;
     color: #FFFFFF;
-    box-sizing: border-box;
 }
 
 .geral {
@@ -33,6 +32,7 @@ body {
 
 .geral__div__1__titulo {
     padding: 0 0 5% 0;
+    font-size: rem;
 }
 
 .geral__div__1__img {
@@ -75,7 +75,7 @@ body {
 }
 
 .geral__div__2__div1 {
-    padding: 0% 0% 10% 15%;
+    padding: 0% 0% 10% 10%;
 
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .geral__div__2__div2 {
-    padding: 15% 9% 10% 7%;
+    padding: 15% 5% 10% 15%;
 }
 
 .geral__div__2__div2__titulo {
@@ -105,10 +105,10 @@ body {
 }
 
 .geral__div__3__div1 {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 10% 7% 10% 7%;
-    width: 38%;
+    padding: 10% 5% 10% 10%;
     gap: 1rem;
 }
 
@@ -132,12 +132,12 @@ body {
 }
 
 .geral__div__3__div2 {
-    width: 40%;
+    width: 55%;
+    padding: 0% 5% 0% 5%;
 }
 
 .geral__div__3__div2__img {
     width: 100%;
-    padding: 10% 10% 30% 0;
 }
 
 .geral__div__4 {
@@ -180,12 +180,14 @@ body {
     display: flex;
     justify-content: center;
     padding: 0 0 10% 0;
+    width: 100vw;
 }
 
 .geral__div__5__div1__itens {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 30%;
     font-size: 0.8rem;
 }
 
@@ -204,21 +206,102 @@ body {
 
 .rodape__links {
     display: flex;
-    gap: 1rem;
+    justify-content: space-evenly;
+    width: 90%;
 }
 
 .rodape__links__a {
     text-decoration: none;
     color: #FFFFFF;
+    text-align: center;
     font-size: 1rem;
+    font-weight: 200;
 }
 
 .rodape__text {
-    padding: 0% 5% 5% 5%;
+    padding: 0% 5% 3% 5%;
 }
 
 .rodape__p {
     text-align: center;
     font-size: 0.8rem;
     font-weight: 100;
+    padding-bottom: 2%;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-image: url('../assets/Background_mobile.png');
+        background-size: contain;
+    }
+
+    .geral__div__1 {
+        width: 82%;
+    }
+
+    .geral__div__1__titulo {
+        padding-top: 65%;
+
+    }
+
+    .geral__div__2__div1 {
+        padding: 15% 5% 10% 7%;
+    }
+
+    .geral__div__2__div2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 15% 7% 10% 7%;
+    }
+
+    .geral__div__2__div2__titulo {
+        font-size: 1.8rem;
+    }
+
+    .geral__div__3__div1 {
+        padding: 10% 5% 10% 8%;
+        text-align: left;
+        gap: 1.5rem;
+    }
+
+    .geral__div__3__div2 {
+        padding: 25% 5% 0% 0%
+    }
+
+    .geral__div__4__div1 {
+        padding: 25% 10% 10% 5%;
+    }
+
+    .geral__div__4__div2 {
+        width: 55%;
+    }
+
+    .geral__div__4__div2__h1 {
+        font-size: 1.8rem;
+    }
+    
+    .geral__div__5__h1 {
+        font-size: 2rem;
+        width: 95%;
+        padding: 10% 0% 5% 3%;
+        text-align: center;
+    }
+
+    .geral__div__5__div1__itens {
+        font-size: 0.4rem;
+    }
+
+    .rodape__img {
+        width: 20%;
+    }
+
+    .rodape__links__a {
+        font-size: 0.5rem;
+    }
+
+    .rodape__p {
+        font-size: 0.5rem;
+    }
+
 }
