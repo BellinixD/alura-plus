@@ -244,6 +244,11 @@ body {
 
     }
 
+    .geral__div__1__img {
+        width: 100%;
+        height: 100%;
+    }
+
     .geral__div__2__div1 {
         padding: 15% 5% 10% 7%;
     }
